@@ -5,7 +5,9 @@ public class Admin {
 	private String pwd;
 	private String email;
 	private int level;
-
+	
+	//시험 테스트 테스트 테스트 테스트 테스트
+	
 	// 디폴트 생성자
 	// 생성자 => [접근한정자] [클래스 이름] () {}
 	// 생성자는 반환값이 없음.
