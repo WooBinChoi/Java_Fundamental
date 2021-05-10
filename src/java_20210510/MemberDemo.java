@@ -15,7 +15,6 @@ public class MemberDemo {
 		System.out.println(addr1);
 		System.out.println(addr2);
 		System.out.println(age);
-
 	}
 	
 	public static void main(String[] args) {
