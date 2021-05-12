@@ -13,8 +13,8 @@ public class WrapperDemo {
 		list.add(new Integer(1));
 		
 		//1. primitive data type => wrapper class(valueOf(~))
-		Integer i1 = new Integer.valueOf(10);
-		Integer i2 = new Integer.valueOf("20");
+		Integer i1 = Integer.valueOf(10);
+		Integer i2 = Integer.valueOf("20");
 		
 		//wrapper class => primitive data type( intValue() )
 		int i3 = i1.intValue();
