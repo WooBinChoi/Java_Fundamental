@@ -32,7 +32,7 @@ public class Calendar2 {
 			count++;
 			if(count%7 == 0) System.out.println();
 		}
-		
+		System.out.println();	
 	}
 	
 	public void print(int year) {
