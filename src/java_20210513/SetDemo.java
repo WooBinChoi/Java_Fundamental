@@ -32,7 +32,7 @@ public class SetDemo {
 		TreeSet lottoSet = new TreeSet();
 		while(true){
 			int random = (int)(Math.random()*45)+1;
-			lottoSet.add(random);
+			lottoSet.add(random);//random 앞에 Integer.valueOf가 생략되어 있음 //auto-boxing
 			if(lottoSet.size() == 6) break;
 		}
 		
