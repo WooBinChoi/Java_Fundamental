@@ -38,9 +38,9 @@ public class CalendarDemo {
 		
 		//ctrl + shift + o
 		
-		cal.set(1900,1,13);//날짜를 변경하려고 사용하는 메서드
+		cal.set(1900,0,13);//날짜를 변경하려고 사용하는 메서드
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 MM월 dd일 HH시mm분ss초 E요일");
+		SimpleDateFormat sdf = new SimpleDateFormat("\nyyyy년 MM월 dd일 E요일 HH시mm분ss초");
 		Date d = cal.getTime();
 		String display = sdf.format(d);
 		System.out.println(display);
